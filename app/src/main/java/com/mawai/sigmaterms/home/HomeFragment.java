@@ -57,7 +57,6 @@ public class HomeFragment extends Fragment {
 
 
 
-//        laddo
 //        toolbar.setDisplayHomeAsUpEnabled(true);
 
         sessionManager = new SessionManager(getContext());
