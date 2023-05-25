@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".mastercartonpacking.MasterCartonPackingFragment">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@color/sigmablue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:theme="@style/ToolbarColoredBackArrow">
+
+            <ImageView
+                android:id="@+id/img_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_action_arrow"
+                android:layout_gravity="center"
+                android:visibility="visible"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="Master Carton Packing"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+            </LinearLayout>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <ScrollView
+            android:id="@+id/scrollView_manager"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+<!--                    <View-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="1dp"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:background="@color/navyblue" />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="left"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:fontFamily="@font/poppins_bold"-->
+<!--                        android:hint="Master Carton Packing"-->
+<!--                        android:padding="5dp"-->
+<!--                        android:background="@color/white"-->
+<!--                        android:textColorHint="@color/navyblue"-->
+<!--                        android:textSize="15dp"-->
+<!--                        android:textStyle="normal" />-->
+
+<!--                    <View-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="1dp"-->
+<!--                        android:layout_marginTop="5dp"-->
+<!--                        android:background="@color/navyblue" />-->
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        app:cardCornerRadius="5dp"
+                        app:cardBackgroundColor="@color/sigmablue"
+                        app:cardElevation="6dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+
+                            <TextView
+                                android:id="@+id/text_unit_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="5dp"
+                                android:fontFamily="@font/poppins_bold"
+                                android:gravity="center"
+                                android:text="Category"
+                                android:textColor="@color/white"
+                                android:textSize="12dp"
+                                android:textStyle="normal" />
+
+                            <TextView
+                                android:id="@+id/text_username"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:fontFamily="@font/poppins_bold"
+                                android:gravity="center"
+                                android:text="Category"
+                                android:textSize="12dp"                        android:textColor="@color/white"
+                                android:textStyle="normal" />
+
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:orientation="vertical">
+
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/rack_loading_wip"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            app:cardBackgroundColor="@color/lightblue"
+                            app:cardCornerRadius="8dp"
+                            app:cardElevation="4.5dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:layout_margin="5dp"
+                                android:orientation="vertical">
+
+
+                                <EditText
+                                    android:id="@+id/edt_carton_barcode"
+                                    style="@style/TextAppearance.AppCompat.Medium"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="50dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginRight="20dp"
+                                    android:background="@drawable/login_edittext_second_desgin"
+                                    android:clickable="false"
+                                    android:focusable="true"
+                                    android:fontFamily="@font/poppins_medium"
+                                    android:hint="CartonBarcode"
+                                    android:textColor="@android:color/black"
+                                    android:textColorHint="@color/darkgray"
+                                    android:textSize="16dp" />
+
+                                <EditText
+                                    android:id="@+id/edt_product_code"
+                                    style="@style/TextAppearance.AppCompat.Medium"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginRight="20dp"
+                                    android:background="@drawable/login_edittext_second_desgin"
+                                    android:clickable="false"
+                                    android:focusable="false"
+                                    android:fontFamily="@font/poppins_medium"
+                                    android:hint="Product Code"
+                                    android:visibility="visible"
+                                    android:textColor="@android:color/black"
+                                    android:textColorHint="@color/darkgray"
+                                    android:textSize="16dp" />
+
+                                <EditText
+                                    android:id="@+id/edt_product_desc"
+                                    style="@style/TextAppearance.AppCompat.Medium"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginRight="20dp"
+                                    android:background="@drawable/login_edittext_second_desgin"
+                                    android:clickable="false"
+                                    android:focusable="false"
+                                    android:fontFamily="@font/poppins_medium"
+                                    android:hint="Product Desc"
+                                    android:visibility="visible"
+                                    android:textColor="@android:color/black"
+                                    android:textColorHint="@color/darkgray"
+                                    android:textSize="16dp" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginRight="20dp"
+                                    android:orientation="horizontal">
+
+                                    <EditText
+                                        android:id="@+id/edt_carton_size"
+                                        style="@style/TextAppearance.AppCompat.Medium"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="40dp"
+                                        android:layout_weight="1"
+                                        android:layout_gravity="center"
+                                        android:layout_marginRight="10dp"
+                                        android:background="@drawable/login_edittext_second_desgin"
+                                        android:clickable="false"
+                                        android:focusable="false"
+                                        android:fontFamily="@font/poppins_medium"
+                                        android:hint="Carton Size"
+                                        android:visibility="visible"
+                                        android:textColor="@android:color/black"
+                                        android:textColorHint="@color/darkgray"
+                                        android:textSize="16dp" />
+
+                                    <EditText
+                                        android:id="@+id/edt_pack_qty"
+                                        style="@style/TextAppearance.AppCompat.Medium"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="40dp"
+                                        android:layout_weight="1"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="10dp"
+                                        android:background="@drawable/login_edittext_second_desgin"
+                                        android:clickable="false"
+                                        android:focusable="false"
+                                        android:fontFamily="@font/poppins_medium"
+                                        android:hint="Pack"
+                                        android:visibility="visible"
+                                        android:textColor="@android:color/black"
+                                        android:textColorHint="@color/darkgray"
+                                        android:textSize="16dp" />
+
+                                </LinearLayout>
+
+                                <EditText
+                                    android:id="@+id/edt_unit_box_scan"
+                                    style="@style/TextAppearance.AppCompat.Medium"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginRight="20dp"
+                                    android:background="@drawable/login_edittext_second_desgin"
+                                    android:clickable="false"
+                                    android:focusable="true"
+                                    android:fontFamily="@font/poppins_medium"
+                                    android:hint="Unit Box Scan"
+                                    android:visibility="visible"
+                                    android:textColor="@android:color/black"
+                                    android:textColorHint="@color/darkgray"
+                                    android:textSize="16dp" />
+
+                                <EditText
+                                    android:id="@+id/edt_product_code2"
+                                    style="@style/TextAppearance.AppCompat.Medium"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginRight="20dp"
+                                    android:layout_marginBottom="20dp"
+                                    android:background="@drawable/login_edittext_second_desgin"
+                                    android:clickable="false"
+                                    android:focusable="false"
+                                    android:fontFamily="@font/poppins_medium"
+                                    android:hint="Product Code"
+                                    android:visibility="visible"
+                                    android:textColor="@android:color/black"
+                                    android:textColorHint="@color/darkgray"
+                                    android:textSize="16dp" />
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:visibility="visible"
+                            android:layout_marginRight="15dp"
+                            android:orientation="horizontal">
+
+
+
+
+                            <Button
+                                android:id="@+id/btn_clear"
+                                style="@style/TextAppearance.AppCompat.Medium"
+                                android:layout_width="wrap_content"
+                                android:layout_height="45dp"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginBottom="15dp"
+                                android:background="@drawable/backedtusername"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/poppins_regular"
+                                android:text="Clear"
+                                android:textAllCaps="false"
+                                android:textColor="@color/white"
+                                android:textSize="16dp"
+                                android:textStyle="bold" />
+
+                            <Button
+                                android:id="@+id/btn_exit"
+                                style="@style/TextAppearance.AppCompat.Medium"
+                                android:layout_width="wrap_content"
+                                android:layout_height="45dp"
+                                android:layout_marginLeft="15dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginBottom="15dp"
+                                android:background="@drawable/green_button"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/poppins_regular"
+                                android:text="Exit"
+                                android:visibility="visible"
+                                android:textAllCaps="false"
+                                android:textColor="@android:color/white"
+                                android:textSize="16dp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

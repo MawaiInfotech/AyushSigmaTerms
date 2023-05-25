@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Ayush_Data/androidworkspace/Janurary2022/SigmaTerms/app/src/main/res/drawable-anydpi/button_desgin.xml" value="0.1245" />
+        <entry key="..\:/Ayush_Data/androidworkspace/Janurary2022/SigmaTerms/app/src/main/res/drawable-hdpi/background.xml" value="0.151" />
+        <entry key="..\:/Ayush_Data/androidworkspace/Janurary2022/SigmaTerms/app/src/main/res/drawable/backedtusername.xml" value="0.171" />
+        <entry key="..\:/Ayush_Data/androidworkspace/Janurary2022/SigmaTerms/app/src/main/res/drawable/background.xml" value="0.151" />
+        <entry key="..\:/Ayush_Data/androidworkspace/Janurary2022/SigmaTerms/app/src/main/res/drawable/button_desgin.xml" value="0.1505" />
+        <entry key="..\:/Ayush_Data/androidworkspace/Janurary2022/SigmaTerms/app/src/main/res/drawable/button_desgin_blue.xml" value="0.131" />
+        <entry key="..\:/Ayush_Data/androidworkspace/Janurary2022/SigmaTerms/app/src/main/res/drawable/button_desgin_three..xml" value="0.131" />
+        <entry key="..\:/Ayush_Data/androidworkspace/Janurary2022/SigmaTerms/app/src/main/res/drawable/button_desgin_three.xml" value="0.131" />
+        <entry key="..\:/Ayush_Data/androidworkspace/Janurary2022/SigmaTerms/app/src/main/res/drawable/button_desgin_two.xml" value="0.164" />
+        <entry key="..\:/Ayush_Data/androidworkspace/Janurary2022/SigmaTerms/app/src/main/res/drawable/green_button.xml" value="0.1505" />
+        <entry key="..\:/Ayush_Data/androidworkspace/Janurary2022/SigmaTerms/app/src/main/res/drawable/login_btn_box_desgin.xml" value="0.147" />
+        <entry key="..\:/Ayush_Data/androidworkspace/Janurary2022/SigmaTerms/app/src/main/res/drawable/selected_tab_back.xml" value="0.151" />
+        <entry key="..\:/Ayush_Data/androidworkspace/Janurary2022/SigmaTerms/app/src/main/res/drawable/tab_background.xml" value="0.151" />
+        <entry key="..\:/Ayush_Data/androidworkspace/Janurary2022/SigmaTerms/app/src/main/res/font/new_fonts.xml" value="0.234375" />
+        <entry key="..\:/Ayush_Data/androidworkspace/Janurary2022/SigmaTerms/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Ayush_Data/androidworkspace/Janurary2022/SigmaTerms/app/src/main/res/layout/fragment_dispatch.xml" value="0.20416666666666666" />
+        <entry key="..\:/Ayush_Data/androidworkspace/Janurary2022/SigmaTerms/app/src/main/res/layout/fragment_dispatch_cancel.xml" value="0.20416666666666666" />
+        <entry key="..\:/Ayush_Data/androidworkspace/Janurary2022/SigmaTerms/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/Ayush_Data/androidworkspace/Janurary2022/SigmaTerms/app/src/main/res/layout/fragment_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Ayush_Data/androidworkspace/Janurary2022/SigmaTerms/app/src/main/res/layout/fragment_master_carton_packing.xml" value="0.22" />
+        <entry key="..\:/Ayush_Data/androidworkspace/Janurary2022/SigmaTerms/app/src/main/res/layout/fragment_pallet_re_packing.xml" value="0.22" />
+        <entry key="..\:/Ayush_Data/androidworkspace/Janurary2022/SigmaTerms/app/src/main/res/layout/fragment_pallet_scanning.xml" value="0.25" />
+        <entry key="..\:/Ayush_Data/androidworkspace/Janurary2022/SigmaTerms/app/src/main/res/layout/fragment_un_pack.xml" value="0.19010416666666666" />
+        <entry key="..\:/Ayush_Data/androidworkspace/Janurary2022/SigmaTerms/app/src/main/res/layout/layout_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/Ayush_Data/androidworkspace/Janurary2022/SigmaTerms/app/src/main/res/layout/layout_dialog_unpack_and_cancel.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
