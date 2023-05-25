@@ -97,21 +97,6 @@ public class LoginFragment extends Fragment {
             }
         });
 
-//        spinnerDialogUnitNo.bindOnSpinerListener(new OnSpinerItemClick() {
-//            @Override
-//            public void onClick(String item, int position) {
-//                if (SystemClock.elapsedRealtime() - mLastClickTime < 1000) {
-//                    return;
-//                }
-//                mLastClickTime = SystemClock.elapsedRealtime();
-//
-//                Toast.makeText(getContext(), item, Toast.LENGTH_SHORT).show();
-//                binding.edtunitname.setText(item);
-//                datas.add(divisionMap.get(divisionsModelArrayList.get(position).getCode()));
-//                Log.d("", "" + divisionsModelArrayList.get(position).getCode());
-//                sessionManager.save(SessionManager.UNIT_CODE,divisionsModelArrayList.get(position).getCode());
-//            }
-//        });
 
 
 
