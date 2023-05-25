@@ -56,7 +56,8 @@ public class HomeFragment extends Fragment {
         toolbar = view.findViewById(R.id.toolbar);
 
 
-//        landoo
+
+//        laddo
 //        toolbar.setDisplayHomeAsUpEnabled(true);
 
         sessionManager = new SessionManager(getContext());
