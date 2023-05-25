@@ -237,6 +237,7 @@
                             android:background="@drawable/login_btn_box_desgin"
                             android:fontFamily="@font/poppins_bold"
                             android:gravity="center"
+                            android:visibility="gone"
                             android:text="Login"
                             android:textColor="@android:color/white"
                             android:textSize="16dp" />
