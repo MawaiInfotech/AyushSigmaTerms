@@ -55,11 +55,6 @@ public class HomeFragment extends Fragment {
 
         toolbar = view.findViewById(R.id.toolbar);
 
-//        dispatchcancel = view.findViewById(R.id.dispatchcancel);
-//        text_username = view.findViewById(R.id.text_username);
-//        text_unit_name = view.findViewById(R.id.text_unit_name);
-//        img_arrow = view.findViewById(R.id.img_arrow);
-//        img_logout = view.findViewById(R.id.img_logout);
 
 
 
